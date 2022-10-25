@@ -119,7 +119,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/bartg/staticmedia'
+STATIC_ROOT = '/home/bartg/staticmedia/static'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/home/bartg/staticmedia/media'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
